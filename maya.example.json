@@ -1,0 +1,50 @@
+{
+    "environments": {
+        "dev": {
+            "access_token": "{{ DEV ACCESS TOKEN }}",
+            "plugins": {
+                "dummy-frontend-plugin": {
+                    "id": "{{ DEV ID }}",
+                    "namespace": "{{ DEV NAMESPACE }}",
+                    "route": "/{{ DEV ROUTE }}",
+                    "services": {
+                        "dummy-backend-plugin": {
+                            "id": "{{ DEV SERVICE ID }}"
+                        }
+                    }
+                }
+            }
+        },
+        "stage": {
+            "access_token": "{{ STAGE ACCESS TOKEN }}",
+            "plugins": {
+                "dummy-frontend-plugin": {
+                    "id": "{{ STAGE ID }}",
+                    "namespace": "{{ STAGE NAMESPACE }}",
+                    "route": "/{{ STAGE ROUTE }}",
+                    "services": {
+                        "dummy-backend-plugin": {
+                            "id": "{{ STAGE SERVICE ID }}"
+                        }
+                    }
+                }
+            },
+            "default": true
+        },
+        "prod": {
+            "access_token": "{{ PROD ACCESS TOKEN }}",
+            "plugins": {
+                "dummy-frontend-plugin": {
+                    "id": "{{ ID }}",
+                    "namespace": "{{ NAMESPACE }}",
+                    "route": "/{{ ROUTE }}",
+                    "services": {
+                        "dummy-backend-plugin": {
+                            "id": "{{ SERVICE ID }}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

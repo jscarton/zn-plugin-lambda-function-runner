@@ -1,0 +1,17 @@
+<script type="text/ng-template" id="wgn-runner">
+	<div class="text-center">		
+		<h1><i class="icon-amazon"></i></h1>
+	</div>
+	<div class="text-center" ng-show="processing">		
+		<h2>Processing...</h2>
+	</div>
+	<div class="text-center" ng-show="runningAWSFunction">		
+		<h2>Running function on AWS Lambda</h2>
+	</div>
+	<div class="text-center" ng-show="success">		
+		<h2>Success!!! redirecting to form</h2>
+	</div>
+	<div class="text-center" ng-show="error">		
+		<h2>There was an error!!! go back to the form and try again</h2>
+	</div>
+</script>

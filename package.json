@@ -1,0 +1,13 @@
+{
+  "name": "js-lambda-function-runner",
+  "version": "1.0.0",
+  "description": "Zengine plugin generated using Yeoman generator-zn-plugin",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "standard-version": "^4.4.0"
+  },
+  "scripts": {
+    "release": "standard-version"
+  }
+}

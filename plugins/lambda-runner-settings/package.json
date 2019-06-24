@@ -1,0 +1,17 @@
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "description": "This is a frontend plugin",
+  "private": true,
+  "dependencies": {
+    "@zenginehq/frontend-config": "^3.14.0",
+    "@zenginehq/frontend-webhooks": "^1.2.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint --config .jshintrc ./src || true"
+  }
+}

@@ -1,0 +1,20 @@
+  "status": 200,
+  "code": 2000,
+  "developerMessage": "Make note of your API Secret Key. This is the last & only time you will see it! By using our API, you agree to the terms of our API License Agreement (http://www.zenginehq.com/terms-of-service/api).",
+  "totalCount": 1,
+  "limit": 20,
+  "offset": 0,
+  "data": {
+    "id": 513,
+    "appName": "JScarton AWS Lambda Runner",
+    "redirectUri": "https://platform.zenginehq.com/workspaces/27697/admin/plugin/jsawslambdarunner",
+    "apiKey": "d5d7ecd483eaf947349c7b34a139e3a087ca",
+    "apiSecret": "bb50007aa7c610aaf758e2c59c98689aa6fd36089ab5d48b4ed6555519871dd1",
+    "created": "2019-05-30T00:37:49+0000",
+    "modified": "2019-05-30T00:37:49+0000"
+  }
+}
+
+
+https://auth.zenginehq.com/oauth2/v1/authorize?client_id=d5d7ecd483eaf947349c7b34a139e3a087ca&state=-LfNWGJvQ610OLaR_yEG&response_type=token&redirect_uri=https://platform.zenginehq.com/workspaces/27697/admin/plugin/jsawslambdarunner
+bb50007aa7c610aaf758e2c59c98689aa6fd36089ab5d48b4ed6555519871dd1

@@ -1,0 +1,11 @@
+backend/**/config.json
+node_modules
+!backend/**/_runner/node_modules
+maya.json
+maya_build
+npm-debug.log
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+nbproject/private/
+.vscode
