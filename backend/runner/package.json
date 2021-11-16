@@ -6,7 +6,7 @@
   "dependencies": {
     "@zenginehq/backend-firebase": "^2.0.1",
     "@zenginehq/backend-webhooks": "^1.2.1",
-    "aws-sdk": "^2.553.0",
+    "aws-sdk": "^2.814.0",
     "firebase": "2.3.2",
     "requestify": "0.2.5"
   },
